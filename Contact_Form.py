@@ -5,25 +5,25 @@ from streamlit_lottie import st_lottie
 
 st.header(":mailbox: Get In Touch With Me!!")
 
-def load_lottiefile(filepath: str):
-    with open(filepath,"r") as f:
-        return json.load(f)
+# def load_lottiefile(filepath: str):
+#     with open(filepath,"r") as f:
+#         return json.load(f)
     
-def load_lottieurl(url:str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
+# def load_lottieurl(url:str):
+#     r = requests.get(url)
+#     if r.status_code != 200:
+#         return None
+#     return r.json()
 
-code = load_lottiefile(r"C:\Users\Tanmay Chavan\Documents\Computer Science\Python\Pytnon Code\Practice\Streamlit\My_Ultimate_Streamlit_Website\Animation - 1720629687924.json")
+# code = load_lottiefile(r"C:\Users\Tanmay Chavan\Documents\Computer Science\Python\Pytnon Code\Practice\Streamlit\My_Ultimate_Streamlit_Website\Animation - 1720629687924.json")
 
-st_lottie(
-    code,
-    speed =1,
-    reverse=False,
-    loop = True,
-    quality= "low"  
-)
+# st_lottie(
+#     code,
+#     speed =1,
+#     reverse=False,
+#     loop = True,
+#     quality= "low"  
+# )
 
 contact_form = """
 <form action="https://formsubmit.co/tanmay.chavan@walchandsangli.ac.in" method="POST">
