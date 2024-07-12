@@ -15,7 +15,7 @@ def load_lottieurl(url:str):
         return None
     return r.json()
 
-code = load_lottiefile(r"C:\Users\Tanmay Chavan\Downloads\Animation - 1720629687924.json")
+code = load_lottiefile(r"C:\Users\Tanmay Chavan\Documents\Computer Science\Python\Pytnon Code\Practice\Streamlit\My_Ultimate_Streamlit_Website\Animation - 1720629687924.json")
 
 st_lottie(
     code,
