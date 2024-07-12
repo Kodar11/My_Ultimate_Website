@@ -40,4 +40,4 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         
-local_css(r"C:\Users\Tanmay Chavan\Documents\Computer Science\Python\Pytnon Code\Practice\Streamlit\My_Ultimate_Streamlit_Website\style\style.css")
+local_css(r"My_Ultimate_Streamlit_Website\style\style.css")
